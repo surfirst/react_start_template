@@ -1,0 +1,25 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "dependencies": {    
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^0.14.23",    
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"    
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.29.0",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.4.1",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
